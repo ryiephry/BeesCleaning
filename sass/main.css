@@ -1,0 +1,10 @@
+header {
+  display: flex;
+}
+
+.header_list {
+  display: flex;
+}
+.header_list li {
+  margin-right: 30px;
+}/*# sourceMappingURL=main.css.map */
