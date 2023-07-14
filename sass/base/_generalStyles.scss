@@ -1,0 +1,159 @@
+* {
+    margin:0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    line-height: 26px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.contain {
+    width: 100%;
+    margin: auto;
+}
+// open ai /
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set base font styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Header */
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: center;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Hero section */
+#hero {
+    background-image: url(hero-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+}
+.hero-img{
+    height:auto;
+    max-width:350px;
+}
+.hero-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff5e3a;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services section */
+#services {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* About section */
+#about {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Contact section */
+#contact {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #ff5e3a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 14px;
+}
