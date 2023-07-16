@@ -85,6 +85,8 @@ p {
 #services {
     text-align: center;
     background-color: #f1f1f1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 22px;
 }
 
 .container {
@@ -99,6 +101,7 @@ p {
     border-color: #2e6163;
     border-radius: 10px;
     border-width: 3px;
+    
 }
 
 .service img {
@@ -106,6 +109,7 @@ p {
     max-width: 300px;
     height: auto;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 h3 {

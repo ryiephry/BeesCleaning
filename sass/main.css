@@ -10,11 +10,7 @@ body {
 header {
   padding-bottom: 50px;
   padding: 20px;
-  background-color: #2e6163;
-  border-style: solid;
-  border-color: #308185;
-  border-width: 2px;
-  border-bottom: none;
+  background-color: #000000;
 }
 header h1 {
   color: white;
@@ -180,6 +176,8 @@ p {
 #services {
   text-align: center;
   background-color: #f1f1f1;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 22px;
 }
 
 .container {
@@ -201,6 +199,7 @@ p {
   max-width: 300px;
   height: auto;
   margin-bottom: 10px;
+  border-radius: 20px;
 }
 
 h3 {
@@ -253,14 +252,10 @@ footer p {
 }
 
 .main-text {
-  padding: 30px 20px;
-  background-color: #2e6163;
+  padding: 50px 20px;
+  background-color: #000000;
   color: white;
   border-radius: 0px 0px 20px 20px;
-  border-style: solid;
-  border-color: #308185;
-  border-width: 2px;
-  border-top: none;
 }
 
 .h2-text {
@@ -325,4 +320,14 @@ footer p {
 
 .input-footer:focus {
   outline: 1.5px solid #1f696c;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translatex(-100%);
+  transition: all 3s;
+}
+
+.show {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
