@@ -167,7 +167,7 @@ p {
   display: inline-block;
   background-color: #2e6163;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 50px;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -224,7 +224,6 @@ form textarea {
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 1px solid #ccc;
 }
 
 form button {
@@ -295,4 +294,9 @@ footer p {
 
 .form {
   margin: 20px;
+}
+
+.input-footer {
+  color: #2e6163;
+  border: 1px solid #13a8ae;
 }/*# sourceMappingURL=main.css.map */

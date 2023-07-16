@@ -1,3 +1,13 @@
 .form {
   margin: 20px;
+}
+
+.input-footer {
+  color: #2e6163;
+  border: 1px solid #13a8ae;
+}
+
+.input-footer:hover,
+.input-footer:focus {
+  border: 1px solid #1f696c;
 }/*# sourceMappingURL=footer.css.map */
