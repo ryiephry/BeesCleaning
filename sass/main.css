@@ -215,6 +215,7 @@ h3 {
   padding: 60px 0;
   text-align: center;
   background-color: #f1f1f1;
+  border-radius: 20px;
 }
 
 form input,
@@ -248,7 +249,7 @@ footer p {
 }
 
 .main-text {
-  padding: 50px 20px;
+  padding: 30px 20px;
   background-color: #2e6163;
   color: white;
   border-radius: 0px 0px 20px 20px;
@@ -258,11 +259,7 @@ footer p {
   line-height: 1.5;
   text-align: center;
   font-size: 32px;
-  border-style: solid;
-  border-width: 2.5px;
-  border-color: white;
-  margin-bottom: 30px;
-  border-radius: 7px;
+  margin-bottom: 25px;
 }
 
 .phone-div {
@@ -294,7 +291,7 @@ footer p {
 }
 
 .call-phone {
-  animation: colorChange 4s infinite;
+  animation: colorChange 6s 10s;
 }
 
 @keyframes colorChange {
