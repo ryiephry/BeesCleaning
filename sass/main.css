@@ -293,6 +293,21 @@ footer p {
   margin: 10px;
 }
 
+.call-phone {
+  animation: colorChange 4s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: rgb(255, 235, 12);
+  }
+  100% {
+    color: white;
+  }
+}
 .form {
   margin: 20px;
 }
