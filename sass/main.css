@@ -251,7 +251,7 @@ footer p {
   padding: 50px 20px;
   background-color: #2e6163;
   color: white;
-  border-radius: 0px 0px 0px 20px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .h2-text {
@@ -262,6 +262,7 @@ footer p {
   border-width: 2.5px;
   border-color: white;
   margin-bottom: 30px;
+  border-radius: 7px;
 }
 
 .phone-div {
@@ -303,8 +304,5 @@ footer p {
 }
 
 .input-footer:focus {
-  border: 0;
-  outline: none;
-  border: 2.5px solid #1f696c;
-  outline: 2px solid #ff0000;
+  outline: 1.5px solid #1f696c;
 }/*# sourceMappingURL=main.css.map */
