@@ -320,14 +320,4 @@ footer p {
 
 .input-footer:focus {
   outline: 1.5px solid #1f696c;
-}
-
-.hidden {
-  opacity: 0;
-  transform: translatex(-100%);
-  transition: all 3s;
-}
-
-.show {
-  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
