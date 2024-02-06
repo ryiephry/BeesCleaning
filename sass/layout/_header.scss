@@ -2,7 +2,7 @@ body {
     font-family: 'Ysabeau Infant';
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.2em;
+    // letter-spacing: 0.2em;
     margin: 0px;
     display: block;
 
@@ -11,10 +11,14 @@ body {
 header {
     padding-bottom: 50px; 
     padding: 20px;
-    background-color: #000000;
+    background-color: #031711;
+    display: flex;
+    justify-content:space-between;
     h1 {
-    color:white;
-    text-align: center
+    color:#FCDC34;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Playfair Display', sans-serif;
      }
 }
 .header_div {
@@ -34,4 +38,16 @@ header {
 }
 .div_logo {
   margin-left:20px;
+}
+
+// header media queries 
+
+@media screen and (max-width: 500px) {
+    header{
+        display:flex;
+        justify-content: center;
+    }
+    .header-selection {
+        display:none;
+    }
 }

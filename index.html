@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,68 +11,79 @@
     <link href="./sass/main.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,600;1,700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Ysabeau+Infant:ital,wght@0,400;0,600;1,1000&display=swap"
-          rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,600;1,700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Ysabeau+Infant:ital,wght@0,400;0,600;1,1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <div class="initial-screen">
+        <div class="logo-container">
+            <img src="/images/logo-transparent-png.png" alt="Your Logo">
+        </div>
+    </div>
+    <header class="main-content">
         <h1>BusyBees Cleaning Solutions</h1>
-        <!-- <nav>
-            <ul>
+        <nav>
+            <ul class="header-selection">
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
 
-    <section class="hero_section contain hidden">
+    <section class="hero_section contain hidden main-content">
 
-        
-            <!-- <div class="hero-block"><p>img</p></div> -->
-        <div class="image-container">
-        <!-- <div class="hello-div">
-            <h2 class="hello">Clean with Confidence Professional Powerwashing Services You Can Trust</h2>
-           </div> -->
+
+        <div class="hero-block">
+            <p>img</p>
         </div>
-
-    </section> 
-    <section class="hidden">
-        <div class="main-text"> 
-            <h2 class="h2-text">BusyBees Power Washing & Cleaning Solutions</h1>
-            <div class="phone-div">
-                <a class="call-phone" href="tel:+1 7865678979">CLICK ME TO CALL</a>
+        <!-- <div class="image-container">
+            <div class="hello-div">
+                <h2 class="hello">Clean with Confidence Professional Powerwashing Services You Can Trust</h2>
             </div>
-            
-        </div>
-        
+        </div> -->
+
     </section>
-    <section id="services" class="hidden">
+    <section class="hidden main-content">
+        <div class="main-text">
+            <h2 class="h2-text">BusyBees Power Washing & Cleaning Solutions</h1>
+                <div class="phone-div">
+                    <a class="call-phone" href="tel:+1 7865678979">CLICK ME TO CALL</a>
+                </div>
+
+        </div>
+
+    </section>
+    <section id="services" class="hidden main-content">
         <div class="container">
             <h2 class="ourServices">Our Services</h2>
             <div class="service">
-                <img src="images/sam bukai stucco.jpeg" alt="Service 1">
+                <img src="images/markshrumhouse.jpeg" alt="Service 1">
                 <h3 class="title">Powerwashing</h3>
                 <p class="p-text"> Our dedicated team of power washing professionals utilizes
-                state-of-the-art equipment and eco-friendly cleaning agents to rejuvenate your surfaces effectively. With our expertise,
-                we can revitalize your home or business, restoring its original beauty and curb appeal. From removing stubborn stains to
-                eliminating mold and mildew, our power washing services ensure a thorough and deep clean. </p>
+                    state-of-the-art equipment and eco-friendly cleaning agents to rejuvenate your surfaces effectively.
+                    With our expertise,
+                    we can revitalize your home or business, restoring its original beauty and curb appeal. From
+                    removing stubborn stains to
+                    eliminating mold and mildew, our power washing services ensure a thorough and deep clean. </p>
             </div>
             <div class="service">
                 <img src="images/windowhalfcleaned.jpeg" alt="Service 2">
                 <h3 class="title">Window Cleaning</h3>
-                <p class="p-text">Window cleaning is an essential aspect of maintaining a pristine and inviting space. Dirty and streaky windows not only
-                obstruct natural light but also create a dull and unappealing atmosphere. 
+                <p class="p-text">Window cleaning is an essential aspect of maintaining a pristine and inviting space.
+                    Dirty and streaky windows not only
+                    obstruct natural light but also create a dull and unappealing atmosphere.
                 </p>
             </div>
         </div>
     </section>
 
-    <section id="contact"class="hidden">
+    <section id="contact" class="hidden main-content">
         <div class="container">
             <h2 class="title">Contact Us</h2>
-            <h2 class="title" > for now just call </h2>
+            <h2 class="title"> for now just call </h2>
             <p>Ready to get started? Reach out to us for a free quote or any inquiries.</p>
             <form class="form">
                 <input type="text" placeholder="Name" class="input-footer">
@@ -82,5 +95,6 @@
     </section>
     <script src="/javascript/loading.js" module></script>
 </body>
+
 
 </html>

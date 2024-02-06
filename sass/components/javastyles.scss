@@ -10,3 +10,52 @@
 //     opacity: 1;
 //     // transform: translatex(-100%);
 // }
+// this isnt js but its for animations so its seperated 
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    /* Use the font you prefer */
+}
+
+.initial-screen {
+    background-color: #031711;
+    /* Dark green background color */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    /* Initial opacity set to 0 */
+    animation: fadeInOut 4s ease-in-out forwards;
+    /* Animation name, duration, easing, and forward-fill mode */
+}
+
+.logo-container img {
+    width: 250px;
+    /* Adjust the width of your logo */
+}
+
+.main-content {
+    display: none;
+    /* Hide the main content initially */
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        /* Start with opacity 0 */
+    }
+
+    50% {
+        opacity: 1;
+        /* Fade in to full opacity */
+    }
+
+    100% {
+        opacity: 0;
+        /* Fade out to opacity 0 */
+        display:none;
+    }
+}
