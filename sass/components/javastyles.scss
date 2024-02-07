@@ -1,61 +1,53 @@
-// .hidden {
-//     opacity: 0;
-//    filter:blur(5px);
-//    transition:opacity 250ms ease-in;
-//    transition:all 3s;
-
-// }
-
-// .show {
-//     opacity: 1;
-//     // transform: translatex(-100%);
-// }
-// this isnt js but its for animations so its seperated 
-
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Playfair Display', serif;
-    /* Use the font you prefer */
+    overflow: hidden;
+    background-color: #031711;
 }
 
 .initial-screen {
     background-color: #031711;
-    /* Dark green background color */
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
-    /* Initial opacity set to 0 */
-    animation: fadeInOut 4s ease-in-out forwards;
-    /* Animation name, duration, easing, and forward-fill mode */
+    opacity: 1;
+    animation: fadeInBackground 5s cubic-bezier(.23, 1, .32, 1) forwards;
 }
 
 .logo-container img {
-    width: 250px;
-    /* Adjust the width of your logo */
+    width: 300px;
+    // opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
-.main-content {
-    display: none;
-    /* Hide the main content initially */
-}
-
-@keyframes fadeInOut {
+@keyframes fadeInBackground {
     0% {
         opacity: 0;
-        /* Start with opacity 0 */
     }
 
-    50% {
+    20% {
         opacity: 1;
-        /* Fade in to full opacity */
+    }
+
+    80% {
+        opacity: 1;
     }
 
     100% {
         opacity: 0;
-        /* Fade out to opacity 0 */
-        display:none;
     }
+}
+
+.main-content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.main-content.loaded {
+    opacity: 1;
+}
+
+.initial-screen.hidden {
+    display: none;
 }

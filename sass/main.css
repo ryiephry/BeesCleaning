@@ -1,5 +1,4 @@
 body {
-  font-family: "Ysabeau Infant";
   font-size: 14px;
   line-height: 16px;
   margin: 0px;
@@ -13,12 +12,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 header h1 {
   color: #FCDC34;
   text-align: left;
   font-size: 18px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Grenze Gotisch", serif;
 }
 
 .header_div {
@@ -33,7 +31,6 @@ header h1 {
   align-content: center;
   font-size: 20px;
 }
-
 .header_list li {
   margin-right: 50px;
 }
@@ -47,12 +44,14 @@ header h1 {
     display: flex;
     justify-content: center;
   }
-
   .header-selection {
     display: none;
   }
+  h1 {
+    display: flex;
+    align-content: center;
+  }
 }
-
 .hero_section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(63, 57, 57, 0.5)), url("/images/markshrumhouse.jpeg");
   background-attachment: fixed;
@@ -69,7 +68,7 @@ header h1 {
   z-index: 5;
 }
 
-.hero_section>* {
+.hero_section > * {
   grid-column: 1/-1;
   grid-row: 1/-1;
 }
@@ -89,7 +88,7 @@ header h1 {
   isolation: isolate;
 }
 
-.image-container>h2 {
+.image-container > h2 {
   grid-column: 1/-1;
   grid-row: 1/-1;
 }
@@ -108,35 +107,12 @@ header h1 {
 }
 
 * {
-  margin: 0px;
-  text-decoration: none;
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
-  line-height: 26px;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   font-family: "Ysabeau Infant", sans-serif;
 }
 
-.contain {
-  width: 100%;
-  margin: auto;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /* Set base font styles */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-}
-
 /* Header */
 nav ul {
   list-style: none;
@@ -189,6 +165,7 @@ p {
   background-color: #f1f1f1;
   border-top-right-radius: 20px;
   border-top-left-radius: 22px;
+  background-color: #031711;
 }
 
 .container {
@@ -312,16 +289,13 @@ footer p {
   0% {
     color: white;
   }
-
   50% {
     color: rgb(255, 235, 12);
   }
-
   100% {
     color: white;
   }
 }
-
 .form {
   margin: 20px;
 }
@@ -339,48 +313,48 @@ footer p {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display", serif;
-  /* Use the font you prefer */
+  overflow: hidden;
+  background-color: #031711;
 }
 
 .initial-screen {
   background-color: #031711;
-  /* Dark green background color */
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* opacity:0; */
-  /* Initial opacity set to 0 */
-  animation: fadeIn 2s ease-in-out forwards;
-  /* Animation name, duration, easing, and forward-fill mode */
+  opacity: 1;
+  animation: fadeInBackground 5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
 
 .logo-container img {
-  width: 250px;
+  width: 300px;
+  transition: opacity 1s ease-in-out;
 }
 
-/* .main-content {
-  /* display: none; */
-/* Hide the main content initially 
-}  */
-
-
-@keyframes fadeInOut {
+@keyframes fadeInBackground {
   0% {
     opacity: 0;
-    /* Start with opacity 0 */
   }
-
-  50% {
+  20% {
     opacity: 1;
-    /* Fade in to full opacity */
   }
-
+  80% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
-    /* Fade out to opacity 0 */
   }
 }
+.main-content {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
 
-/*# sourceMappingURL=main.css.map */
+.main-content.loaded {
+  opacity: 1;
+}
+
+.initial-screen.hidden {
+  display: none;
+}/*# sourceMappingURL=main.css.map */

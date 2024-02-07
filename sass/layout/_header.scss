@@ -1,8 +1,6 @@
 body {
-    font-family: 'Ysabeau Infant';
     font-size: 14px;
     line-height: 16px;
-    // letter-spacing: 0.2em;
     margin: 0px;
     display: block;
 
@@ -18,7 +16,7 @@ header {
     color:#FCDC34;
     text-align: left;
     font-size: 18px;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Grenze Gotisch', serif;
      }
 }
 .header_div {
@@ -49,5 +47,9 @@ header {
     }
     .header-selection {
         display:none;
+    }
+    h1 {
+        display: flex;
+        align-content: center;
     }
 }
