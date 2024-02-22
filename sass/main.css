@@ -15,7 +15,7 @@ header {
 header h1 {
   color: #FCDC34;
   text-align: left;
-  font-size: 18px;
+  font-size: 28px;
   font-family: "Grenze Gotisch", serif;
 }
 
@@ -43,6 +43,7 @@ header h1 {
   header {
     display: flex;
     justify-content: center;
+    padding: 10px;
   }
   .header-selection {
     display: none;
@@ -50,6 +51,36 @@ header h1 {
   h1 {
     display: flex;
     align-content: center;
+    z-index: 6;
+  }
+}
+.custom-shape-divider-top-1707348144 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 5;
+}
+
+.custom-shape-divider-top-1707348144 svg {
+  position: relative;
+  display: block;
+  width: calc(132% + 1.3px);
+  height: 43px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1707348144 .shape-fill {
+  fill: #031711;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1707348144 svg {
+    width: calc(113% + 1.3px);
+    height: 257px;
   }
 }
 .hero_section {
