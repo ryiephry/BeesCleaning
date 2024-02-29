@@ -84,7 +84,7 @@ header h1 {
   }
 }
 .hero_section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(63, 57, 57, 0.5)), url("/images/sebrena rangerover.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(63, 57, 57, 0.5)), url("../images/sebrena rangerover.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -207,10 +207,6 @@ p {
 .service {
   margin: 10px;
   padding-top: 20px;
-  border-style: solid;
-  border-color: #2e6163;
-  border-radius: 10px;
-  border-width: 3px;
 }
 
 .service img {
