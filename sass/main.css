@@ -15,8 +15,11 @@ header {
 header h1 {
   color: #FCDC34;
   text-align: left;
-  font-size: 28px;
-  font-family: "Grenze Gotisch", serif;
+  font-size: 30px;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
 }
 
 .header_div {
@@ -84,7 +87,7 @@ header h1 {
   }
 }
 .hero_section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(63, 57, 57, 0.5)), url("../images/markshrumhouse.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(63, 57, 57, 0.5)), url("/images/sebrena rangerover.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -271,7 +274,6 @@ footer p {
 }
 
 .main-text {
-  padding: 50px 20px;
   background-color: #031711;
   color: white;
   border-radius: 0px 0px 20px 20px;
@@ -303,10 +305,7 @@ footer p {
 }
 
 .service {
-  background-color: wheat;
-  box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: none;
 }
 
 .title {

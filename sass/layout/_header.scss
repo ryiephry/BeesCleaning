@@ -15,8 +15,11 @@ header {
     h1 {
     color:#FCDC34;
     text-align: left;
-    font-size: 28px;
-    font-family: 'Grenze Gotisch', serif;
+    font-size: 30px;
+    font-family: "Vollkorn", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
      }
 }
 .header_div {
@@ -52,8 +55,8 @@ header {
     h1 {
         display: flex;
         align-content: center;
-        z-index:6
-        
+        z-index:6;
+       
     }
 }
 .custom-shape-divider-top-1707348144 {
