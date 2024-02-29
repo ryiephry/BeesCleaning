@@ -1,18 +1,16 @@
 .main-text {
     background-color: #031711;
-    color:white;
-    border-radius: 0px 0px 20px 20px;
+    color:white; 
+    border-radius: 32px 32px 0px 0px;
 }
 
 .h2-text {
     line-height:1.5;
     text-align: center;
     font-size: 32px;
-    // border-style:dotted;
-    // border-width: 1.5px;
-    // border-color: white;
+    margin-top: 0px;
     margin-bottom: 25px;
-    // border-radius:7px;
+    padding-top: 20px;
 }
 .phone-div {
     display:flex;
