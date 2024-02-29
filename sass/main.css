@@ -302,6 +302,13 @@ footer p {
   font-family: Ysabeau Infant;
 }
 
+.service {
+  background-color: wheat;
+  box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 11px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
 .title {
   font-size: 28px;
   color: #2e6163;
