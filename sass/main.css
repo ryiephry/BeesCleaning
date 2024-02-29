@@ -84,7 +84,7 @@ header h1 {
   }
 }
 .hero_section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(63, 57, 57, 0.5)), url("/images/markshrumhouse.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.82), rgba(63, 57, 57, 0.5)), url("../images/markshrumhouse.jpeg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
