@@ -4,16 +4,14 @@
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
-    padding:275px 0px;
+    padding:505px 0px;
     position:relative;
-    
 }
 .hero_section::after {
     content: " ";
     position: absolute;
     inset: 0;
     z-index: 5;
-   // background: black;
  }
 
 .hero_section > * {
@@ -21,7 +19,6 @@
     grid-row: 1 / -1;
 }
 .hero-img {
-
   position:relative;
 }
 
@@ -35,6 +32,9 @@
    display: grid;
     place-items: center;
     isolation: isolate;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
 }
 .image-container > h2 {
     grid-column: 1 / -1;
@@ -48,7 +48,6 @@
 .hello {
     z-index:2;
     color: white;
-    font-family:Josefin Sans;
     font-size:25px;
     font-weight: 1000;
 }

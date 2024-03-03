@@ -27,6 +27,7 @@
     padding: 30px 0px;
     font-family: Ysabeau Infant;
 }
+
 .service {
     background-color: none;
 }
@@ -59,3 +60,28 @@
         color: white;
     }
 }
+
+// plans for website 
+// the delete sentinces over the image " " , and then 
+// for the service section , a lightbox of each service and then text sliding in 
+// from left as you scroll down and a litle text about us being careful and experienced 
+// at this service 
+
+// for footer need to set up some sort of node cloud service maybe pay 1$ a month / aws 
+// and have it hosted, buy a domain and have the texts / leads sent to my number 
+// 
+
+// in detail 
+
+// for the front page 
+// the images should have a slow slide and fade in-out , left to right like a card going
+// over another card that only works when in view so its not playing when your bythe footer
+// the images will most likely be taken from an array in a js file 
+//
+// for services 
+// for the "our services" text it should slide in as well 
+// i want the text to slice in to the middle form the left as you scroll 
+// and have a very smooth motion and not to fast 
+// the images by each service block should be able to scroll to the right through touch but 
+// scroll every 2 seconds automaticly 
+// 
